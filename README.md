@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-15 11:46:52
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-09-15 14:02:32
+ * @LastEditTime: 2020-09-17 14:08:18
 -->
 # 算法实现
 > 介绍面试和工作中经常遇到的算法题目和解决方法;
@@ -44,7 +44,19 @@ Golang 自带工具监控cpu，内存比较简单，并提供可视化界面。
 ```
 
 
+### 图书推荐
+- Linux网络编程
+- MySQL技术内幕
+- Go并发编程实战
 
 
 ### 参考文章
 > https://github.com/pibigstar/go-demo/tree/master/leetcode
+
+> https://www.cnblogs.com/yxhblogs/p/10427954.html
+
+> https://github.com/avelino/awesome-go
+
+> https://programming.vip/keywords/go?page=1
+
+> https://developer.aliyun.com/article/717072
