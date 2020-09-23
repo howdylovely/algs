@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-15 11:46:52
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-09-17 14:08:18
+ * @LastEditTime: 2020-09-22 19:55:11
 -->
 # 算法实现
 > 介绍面试和工作中经常遇到的算法题目和解决方法;
@@ -60,3 +60,12 @@ Golang 自带工具监控cpu，内存比较简单，并提供可视化界面。
 > https://programming.vip/keywords/go?page=1
 
 > https://developer.aliyun.com/article/717072
+
+动态演示算法
+> https://algorithm-visualizer.org/
+
+validator v10
+> https://www.fdevops.com/2020/08/24/go-validator
+
+算法教程
+> http://www.btechsmartclass.com/data_structures/red-black-trees.html
