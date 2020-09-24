@@ -1,0 +1,8 @@
+github.com/ringtail/go-cron v1.0.0 h1:o8tqQaPxhcOq0GJB3gTkbXHaiy5AEBNgVcYsA7bMplc=
+github.com/ringtail/go-cron v1.0.0/go.mod h1:8U/jev/Mhm07q+Z4o0bC1g3WxWdtGlOoSbw9pNyggTI=
+github.com/satori/go.uuid v1.2.0 h1:0uYX9dsZ2yD7q2RtLRtPSdGDWzjeM3TbMJP9utgA0ww=
+github.com/satori/go.uuid v1.2.0/go.mod h1:dA0hQrYB0VpLJoorglMZABFdXlWrHn1NEOzdhQKdks0=
+github.com/toolkits/consistent v0.0.0-20150827090850-a6f56a64d1b1 h1:KKVW3VjyAvOcaAtlssIfMRhGDnqQ90VcXGZfaaNvm1M=
+github.com/toolkits/consistent v0.0.0-20150827090850-a6f56a64d1b1/go.mod h1:/Oysd5WDkGyGtCOpVwF3OI3Bd4ZzfGgMvGyAf82R1kU=
+stathat.com/c/consistent v1.0.0 h1:ezyc51EGcRPJUxfHGSgJjWzJdj3NiMU9pNfLNGiXV0c=
+stathat.com/c/consistent v1.0.0/go.mod h1:QkzMWzcbB+yQBL2AttO6sgsQS/JSTapcDISJalmCDS0=
