@@ -1,5 +1,14 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: WangShuaibing
+ * @Date: 2020-09-27 09:26:23
+ * @LastEditors: WangShuaibing
+ * @LastEditTime: 2020-10-16 13:56:04
+-->
 # Go 语言编程
 > 静态语言
+> Golang非常适合用来进行：服务器编程、分布式系统、数据库代理器、网络编程、内存数据库、云平台、微服务、区块链等这些领域或者行业的应用和实施。
 
 ### 编译方式
 
@@ -17,3 +26,6 @@ Golang源码探索(三) GC的实现原理 https://www.cnblogs.com/zkweb/p/788009
 简单易懂的 Go 内存分配原理解读 https://yq.aliyun.com/articles/652551
 雨痕<<Go源码解析>>
 go内存分配(英文) https://andrestc.com/post/go-memory-allocation-pt1/
+
+Go 学习笔记
+> https://github.com/qyuhen/book/blob/master/Go%201.5%20%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90%20%EF%BC%88%E4%B9%A6%E7%AD%BE%E7%89%88%EF%BC%89.pdf
