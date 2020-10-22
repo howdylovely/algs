@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-15 11:46:52
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-10-13 13:16:44
+ * @LastEditTime: 2020-10-22 15:27:25
 -->
 # 算法实现
 > 介绍面试和工作中经常遇到的算法题目和解决方法;
@@ -65,6 +65,7 @@ Golang 自带工具监控cpu，内存比较简单，并提供可视化界面。
 
 动态演示算法
 > https://algorithm-visualizer.org/
+> https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 validator v10
 > https://www.fdevops.com/2020/08/24/go-validator
@@ -75,6 +76,7 @@ validator v10
 
 Leetcode
 > https://books.halfrost.com/leetcode/
+> https://www.codeleading.com/article/5799915372/
 
 微服务
 > https://github.com/micro/go-micro

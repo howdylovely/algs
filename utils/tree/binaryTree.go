@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-20 13:00:35
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-09-20 16:09:43
+ * @LastEditTime: 2020-10-22 15:08:11
  * @Doc:https://appliedgo.net/bintree/
  */
 
@@ -172,4 +172,8 @@ func (t *BinaryTree) Delete(s int64) error {
 		t.Root = nil
 	}
 	return nil
+}
+
+func RescursionPrint() {
+
 }

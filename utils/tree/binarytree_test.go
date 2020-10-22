@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-21 09:46:07
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-09-21 09:51:21
+ * @LastEditTime: 2020-10-22 15:09:16
  */
 package tree
 
@@ -20,4 +20,18 @@ func TestTraverse(t *testing.T) {
 		treea.Insert(v)
 	}
 	treea.Root.Traverse(treea.Root, func(n *BinaryNode) { fmt.Print(n.Data, " | ") })
+}
+
+func TestRescursionPrint(t *testing.T) {
+	// w io.Writer, node *tree.BinaryNode, ns int, ch rune
+	// if node == nil {
+	// 	return
+	// }
+
+	// for i := 0; i < ns; i++ {
+	// 	fmt.Fprint(w, " ")
+	// }
+	// fmt.Fprintf(w, "%c:%v\n", ch, node.Data)
+	// print(w, node.Left, ns+2, 'L')
+	// print(w, node.Right, ns+2, 'R')
 }
