@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-15 11:46:52
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-10-22 15:27:25
+ * @LastEditTime: 2020-10-24 14:54:25
 -->
 # 算法实现
 > 介绍面试和工作中经常遇到的算法题目和解决方法;
@@ -77,6 +77,8 @@ validator v10
 Leetcode
 > https://books.halfrost.com/leetcode/
 > https://www.codeleading.com/article/5799915372/
+> https://xintiaohuiyi.gitbook.io/jynotebook/shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma
+> https://goa.lenggirl.com/basic/p.html
 
 微服务
 > https://github.com/micro/go-micro
