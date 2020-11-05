@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-27 09:26:23
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-10-16 13:56:04
+ * @LastEditTime: 2020-11-04 14:21:38
 -->
 # Go 语言编程
 > 静态语言
@@ -26,6 +26,15 @@ Golang源码探索(三) GC的实现原理 https://www.cnblogs.com/zkweb/p/788009
 简单易懂的 Go 内存分配原理解读 https://yq.aliyun.com/articles/652551
 雨痕<<Go源码解析>>
 go内存分配(英文) https://andrestc.com/post/go-memory-allocation-pt1/
+https://xie.infoq.cn/article/4abf9bf90d431b717726ea1ab
+https://qcon.infoq.cn/2019/guangzhou/schedule
 
 Go 学习笔记
 > https://github.com/qyuhen/book/blob/master/Go%201.5%20%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90%20%EF%BC%88%E4%B9%A6%E7%AD%BE%E7%89%88%EF%BC%89.pdf
+
+
+Go 在线教程
+> https://goplay.tools/
+
+Go语言开源项目
+> https://www.zhihu.com/question/20801814

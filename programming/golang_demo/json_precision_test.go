@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-10-22 15:01:24
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-10-22 15:04:30
+ * @LastEditTime: 2020-10-27 14:55:51
  */
 package golang_demo
 
@@ -15,6 +15,14 @@ import (
 )
 
 func TestPrintKeepZero(t *testing.T) {
-	data, err := json.Marshal(Pt{40.0, "some_string"})
-	fmt.Println(string(data), err)
+
+	tdata := TestPecision{
+		Atest: 0,
+		Btest: 12.01,
+		Ctest: 12.10,
+	}
+
+	data, _ := json.Marshal(tdata)
+
+	fmt.Println(string(data))
 }
