@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-10-20 18:33:32
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-10-20 20:05:32
+ * @LastEditTime: 2020-12-01 20:35:53
 -->
 # 算法
 
@@ -17,3 +17,12 @@
 ω，读音：small omega、欧米伽（小写）；表示下界(not tight)，大于的意思。
 
 > 介绍https://goa.lenggirl.com/basic/dregee.html
+
+
+
+> Grokking the Coding Interview: Patterns for Coding Questions
+https://github.com/cl2333/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions/tree/master/1.%20Pattern%20Sliding%20Window
+
+
+> Interview Cake
+https://github.com/hoanhan101/algo

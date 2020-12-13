@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-15 11:46:52
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-11-04 14:15:47
+ * @LastEditTime: 2020-11-13 11:40:01
 -->
 # 算法实现
 > 介绍面试和工作中经常遇到的算法题目和解决方法;
@@ -93,4 +93,6 @@ Golang Socket
 Golang Rpc
 
 
-
+查找git项目
+> https://awesome-go.com/
+> https://awesomeopensource.com/

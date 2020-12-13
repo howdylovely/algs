@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-27 09:26:23
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-11-04 14:21:38
+ * @LastEditTime: 2020-12-02 15:44:05
 -->
 # Go 语言编程
 > 静态语言
@@ -38,3 +38,29 @@ Go 在线教程
 
 Go语言开源项目
 > https://www.zhihu.com/question/20801814
+
+Go 设计模式
+> https://golangbyexample.com/all-design-patterns-golang/
+
+Go blog 翻译
+https://learnku.com/docs/go-blog/ismmkeynote/6499
+
+Go 应用场景
+https://my.oschina.net/editorial-story/blog/967845
+https://tonybai.com/2017/04/20/go-coding-in-go-way/
+
+Go 语言编程规范
+https://www.infoq.cn/article/g6c95vyu5telnxxcc9yo
+
+
+### 指针的用法
+推荐在方法上使用指针（前提是这个类型不是 map、slice 等引用类型）
+当结构体较大的时候使用指针会更高效，可以避免内存拷贝，“结构较大” 到底多大才算大可能需要自己或团队衡量，如超过 5 个字段或者根据结构体内存占用来计算
+如果要修改结构体内部的数据或状态必须使用指针
+如果方法的receiver是map、slice 、channel等引用类型不要使用指针
+小数据类型如 bool、int 等没必要使用指针传递
+如果该函数会修改receiver或变量等，使用指针
+
+### golang 
+日期
+https://golangtc.com/t/572af85ab09ecc050a000063

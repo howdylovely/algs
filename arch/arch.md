@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-10-24 15:44:54
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-11-05 16:56:03
+ * @LastEditTime: 2020-11-18 14:38:15
 -->
 # 架构设计
 
@@ -73,3 +73,16 @@
 
 
 https://github.com/binhnguyennus/awesome-scalability
+
+
+文档生成工具
+
+loppo: 非常简单的静态站点生成器
+idoc：简单的文档生成工具
+gitbook：大名鼎鼎的文档协作工具
+docsify：一个神奇的文档站点生成器，简单轻巧，无需静态构建html
+
+
+
+ipmitool 介绍
+> https://www.cnblogs.com/zhangxinglong/p/5012441.html

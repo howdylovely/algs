@@ -31,3 +31,10 @@ https://www.zstack.io/docs/2.3.2/pdf2/a_print_ZStack_Baremetal_Deploy_Tutorial.p
 
 > linuxli.com
 http://linuxli.com/2018/08/RHEL6vsRHEL7/
+
+
+> 日期设置
+GMT(Greenwich Mean Time，格林威治标准时间): 是指位于英国伦敦郊区的皇家格林尼治天文台的标准时间，因为本初子午线被定义在通过那里的经线。
+UTC(Universal Time/Temps Cordonné 世界标准时间)
+CST(Central Standard Time ); 中国标准时间（China Standard Time）
+GMT + 8 = UTC + 8 = CST
