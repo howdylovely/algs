@@ -4,10 +4,42 @@
  * @Author: WangShuaibing
  * @Date: 2020-10-24 15:44:54
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-11-18 14:38:15
+ * @LastEditTime: 2020-12-18 10:25:34
 -->
 # 架构设计
 
+- 云原生
+- 微服务
+
+
+### 微服务技术栈
+- 网关实现
+```text
+zuul
+kong
+nginx+lua
+```
+
+- 服务注册、服务发现配置中心
+```text
+consul 
+etcd
+```
+
+- 微服务框架
+```text
+ go-kit/kit // 工具
+ Go Micro // 微服务框架
+```
+
+- 链路追踪
+```text
+Zipkin²和Jaeger³
+```
+
+
+参考
+https://www.cnblogs.com/jiujuan/p/13301055.html
 
 ### 视图
 
@@ -61,7 +93,15 @@
     - 粒度更细，功能模块
 
 
-
+- 项目管理
+    - 质量屋
+    - 甘特图
+    - 日历
+    - 状态图
+    - 思维导图
+    - 工作分解图
+    - 时间线
+    - PERT图
 
 
 ### 并行计算
@@ -70,6 +110,42 @@
 ### 分布式计算
 
 
+### 微服务解决的问题
+部署
+
+交付
+
+API
+
+版本控制
+
+合同
+
+缩放/自动缩放
+
+服务发现
+
+负载均衡
+
+路由/自适应路由
+
+健康检查
+
+配置
+
+熔断器
+
+bulk-heads
+
+TTL / deadlining
+
+延迟跟踪
+
+服务因果跟踪
+
+分布式日志
+
+度量操作与收集
 
 
 https://github.com/binhnguyennus/awesome-scalability

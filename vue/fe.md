@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-11-19 20:00:12
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-12-13 18:05:52
+ * @LastEditTime: 2020-12-18 11:36:45
 -->
 ## FE
 
@@ -111,6 +111,26 @@ https://yarn.bootcss.com/
 npm install -g jshint
 
 
+### vue 风格指南
+https://cn.vuejs.org/v2/style-guide/index.html#%E8%A7%84%E5%88%99%E5%BD%92
+
+### element-vue 文档
+https://panjiachen.github.io/vue-element-admin-site/zh/guide/advanced/sass.html#%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88
+
+
+
+### webpack 入门指南
+https://github.com/wallstreetcn/webpack-and-spa-guide
+
+
+### vscode vue
+https://github.com/varHarrie/varharrie.github.io/issues/10
+
+
+### async wait promise 实例已跑
+> https://www.cnblogs.com/williamjie/p/9789212.html
+
+
 scm-api
 ```bash
 docker build -t hub.ark.jd.com/scm/scm-api-test:v0.63.49 .
@@ -119,7 +139,7 @@ docker push hub.ark.jd.com/scm/scm-api-test:v0.63.49
 
 scm-console
 ```bash
-docker build -t hub.ark.jd.com/scm-web/console:1.0.1208a .
+docker build -t hub.ark.jd.com/scm-web/console:1.0.1217c .
 docker push hub.ark.jd.com/scm-web/console:1.0.1208a
 
 常用命令

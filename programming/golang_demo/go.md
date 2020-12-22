@@ -4,7 +4,7 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-27 09:26:23
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-12-02 15:44:05
+ * @LastEditTime: 2020-12-17 10:16:16
 -->
 # Go 语言编程
 > 静态语言
@@ -64,3 +64,13 @@ https://www.infoq.cn/article/g6c95vyu5telnxxcc9yo
 ### golang 
 日期
 https://golangtc.com/t/572af85ab09ecc050a000063
+
+### git go 项目 总结
+https://github.com/hwholiday/learning_tools
+
+
+### 幂等
+https://juejin.cn/post/6906290538761158670
+
+### 磊磊落落博客
+https://leileiluoluo.com/

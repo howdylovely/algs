@@ -4,9 +4,17 @@
  * @Author: WangShuaibing
  * @Date: 2020-09-27 09:26:23
  * @LastEditors: WangShuaibing
- * @LastEditTime: 2020-11-17 20:38:19
+ * @LastEditTime: 2020-12-17 14:08:48
 -->
 # Nginx
+
+
+### nginx:stable-alpine 容器测试
+
+
+
+
+
 
 分布式的应用
 - Nginx Cluster
