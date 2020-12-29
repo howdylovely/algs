@@ -97,3 +97,6 @@ https://www.jianshu.com/p/5ddc93b108c9
 
 ### 前端总结
 https://juejin.cn/post/6901466994478940168
+
+### 符号总结
+> https://segmentfault.com/a/1190000023943952

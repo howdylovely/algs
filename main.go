@@ -7,7 +7,3 @@
  * @LastEditTime: 2020-11-05 17:03:30
  */
 package main
-
-func main() {
-
-}

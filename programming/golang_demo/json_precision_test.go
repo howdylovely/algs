@@ -11,10 +11,15 @@ package golang_demo
 import (
 	"encoding/json"
 	"fmt"
+	"strconv"
 	"testing"
 )
 
 func TestPrintKeepZero(t *testing.T) {
+
+	var value float64 = 10.111226
+	value, _ = strconv.ParseFloat(fmt.Sprintf("%.5f", value), 64)
+	fmt.Println(value)
 
 	tdata := TestPecision{
 		Atest: 0,

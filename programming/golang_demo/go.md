@@ -74,3 +74,23 @@ https://juejin.cn/post/6906290538761158670
 
 ### 磊磊落落博客
 https://leileiluoluo.com/
+
+### https
+https://caddyserver.com/
+
+
+### golang高级特性
+- 高阶函数
+- 匿名函数
+
+### golang原理方面的资料
+https://draveness.me/golang/docs/part1-prerequisite/ch01-prepare/golang-debug/
+
+### golang 系列文档
+https://www.liwenzhou.com/posts/Go/about_golang/
+
+### golang 官方blog 翻译
+https://learnku.com/docs/go-blog/gos-declaration-syntax/6587
+
+### 鸟窝文档
+https://colobu.com/2016/04/14/Golang-Channels/
