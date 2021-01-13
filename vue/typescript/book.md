@@ -20,4 +20,7 @@
 > https://juejin.cn/post/6844904098362294279
 
 typescript书
-> https://jkchao.github.io/typescript-book-chinese/typings/typeAssertion.html#as-foo-%E4%B8%8E-foo
+> https://jkchao.github.io/typescript-book-chinese/typings/typeAssertion.html#as-foo-%E4%B8%8E-
+
+typescript书
+http://www.semlinker.com/master-ts-generic/

@@ -131,6 +131,13 @@ https://github.com/varHarrie/varharrie.github.io/issues/10
 > https://www.cnblogs.com/williamjie/p/9789212.html
 
 
+### vuedraggable 拖拽
+http://www.ptbird.cn/vue-draggable-dragging.html
+
+
+### vue3 生命周期
+https://www.jianshu.com/p/fb8ba5b2b474
+
 scm-api
 ```bash
 docker build -t hub.ark.jd.com/scm/scm-api-test:v0.63.49 .
@@ -151,3 +158,33 @@ win10 编译
 npm run servelocal --ip=scmtest-console.jdcloud.com --rewrite=/api/v1
 ```
 
+
+
+docker 
+
+```text
+# stage 0
+FROM node:12-alpine as build-stage
+WORKDIR /app
+COPY package*.json ./
+ENV SASS_BINARY_SITE https://npm.taobao.org/mirrors/node-sass
+RUN npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass
+#ARG NPMREGISTRY='https://registry.npm.taobao.org'
+#RUN npm install --registry=$NPMREGISTRY
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
+    # && npm config set @jd:registry http://registry.m.jd.com \
+    && npm config set registry https://registry.npm.taobao.org \
+    && npm install 
+COPY . .
+RUN npm run build-prod --silent
+
+# stage 1 (nginx)
+#FROM nginx:1.18-alpine
+#COPY config/nginx.conf /etc/nginx/conf.d/default.conf
+#COPY --from=build-stage /app/dist /usr/share/nginx/html
+FROM hub.ark.jd.com/skywing/nginx:latest
+ENV PORT 8081
+COPY config/nginx-skywing.conf /export/servers/nginx/conf/nginx.conf
+COPY --from=build-stage /app/dist /export/servers/nginx/html 
+EXPOSE 8081
+```
