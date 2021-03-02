@@ -3,6 +3,7 @@ module algs
 go 1.14
 
 require (
+	github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394
 	github.com/facebookgo/pqueue v0.0.0-20150616181853-370201431265
 	github.com/jinzhu/gorm v1.9.16 // indirect
 	github.com/open-falcon/falcon-plus v0.2.1

@@ -22,3 +22,8 @@
 - Liskov Substitution Principle，里氏替换原则
 - Interface Segregation Principle，接口隔离原则
 - Dependency Inversion Principle，依赖倒置原则
+
+
+### 设计模式
+
+https://lailin.xyz/post/go-design-pattern.html

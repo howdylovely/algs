@@ -188,3 +188,10 @@ COPY config/nginx-skywing.conf /export/servers/nginx/conf/nginx.conf
 COPY --from=build-stage /app/dist /export/servers/nginx/html 
 EXPOSE 8081
 ```
+
+
+
+vue run env 
+```text
+        // "servelocal": "shell-exec --colored-output \"npm run serve --local\" \"npm run express\"",
+```

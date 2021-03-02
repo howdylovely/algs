@@ -101,3 +101,57 @@ https://www.liwenzhou.com/archives/
 
 ### 面试、底层内容数据
 http://www.topgoer.com/
+
+
+### gin validator 参数校验
+https://juejin.cn/post/6863765115456454664
+
+
+### go并发实战git代码
+https://github.com/ltqthu/gopcp.v2
+
+
+### go defer 总结
+https://tiancaiamao.gitbooks.io/go-internals/content/zh/03.4.html
+
+### testing 单元测试、基准测试、并发基准测试
+https://techlog.cn/note
+
+
+### 字符串处理
+https://www.gwalker.cn/article-b3f647bge5815e1dce2e6bf31027e8de.html
+
+### 线程池处理
+https://github.com/panjf2000/ants/blob/master/README_ZH.md
+
+
+### upx 二进制压缩
+https://abelsu7.top/2019/10/24/go-build-compress-using-upx/
+
+### http/net 简单流程
+https://www.kancloud.cn/digest/batu-go/153528
+
+
+### golang 查找Cpu在做什么
+### golang 查找Cpu开销
+
+https://juejin.cn/post/6844903887757901831
+
+https://juejin.cn/post/6844903680232144910
+
+```text
+当然，go tool trace不能解决一切问题。 如果您想跟踪运行缓慢的函数，或者找到大部分CPU时间花费在哪里，这个工具就是不合适的。 为此，您应该使用go tool pprof，它可以显示在每个函数中花费的CPU时间的百分比。 go tool trace更适合于找出程序在一段时间内正在做什么，而不是总体上的开销。 此外，还有“view trace”链接提供的其他可视化功能，这些对于诊断争用问题特别有用。 了解您的程序在理论上的表现（使用老式Big-O分析）也是无可替代的。
+```
+
+## https://jingwei.link/tags#k8s
+不错的博客 里面有喝多golang知识
+
+
+
+## TDD 
+https://tech.youzan.com/you-zan-go-xiang-mu-dan-ce-ji-cheng-zeng-liang-fu-gai-lu-tong-ji-yu-fen-xi/
+
+单元测试
+基准测试
+覆盖测试
+静态代码分析
