@@ -10,6 +10,31 @@
 > 静态语言
 > Golang非常适合用来进行：服务器编程、分布式系统、数据库代理器、网络编程、内存数据库、云平台、微服务、区块链等这些领域或者行业的应用和实施。
 
+
+### 消息队列
+url https://nsq.io/
+```text
+NSQ
+A realtime distributed messaging platform
+```
+
+### 网络模型
+```text
+新型网络库设计
+netpoll 核心是 Reactor 事件监听调度器
+```
+
+### 编译原理
+```text
+https://godbolt.org/z/s9sWc4
+```
+
+### 内核调试工具
+```text
+strace
+ptrace
+```
+
 ### 编译方式
 
 
@@ -155,3 +180,7 @@ https://tech.youzan.com/you-zan-go-xiang-mu-dan-ce-ji-cheng-zeng-liang-fu-gai-lu
 基准测试
 覆盖测试
 静态代码分析
+
+
+### json 序列化技巧
+https://www.jianshu.com/p/f2e6c8c4bb90

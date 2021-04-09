@@ -38,3 +38,9 @@ GMT(Greenwich Mean Time，格林威治标准时间): 是指位于英国伦敦郊
 UTC(Universal Time/Temps Cordonné 世界标准时间)
 CST(Central Standard Time ); 中国标准时间（China Standard Time）
 GMT + 8 = UTC + 8 = CST
+
+
+
+
+### ssh 工具
+https://www.smarthomebeginner.com/best-ssh-clients-windows-putty-alternatives/

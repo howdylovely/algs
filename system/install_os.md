@@ -116,3 +116,11 @@ Deploy OS for rack servers and XEN vm servers
 Maintain XEN vm clone system backend with libvirt python API
 Develop a temp and power monitor for rackspace by SNMP with web.py
 Repair broken components or add devices for rack servers
+
+
+### pxe 等装机知识
+https://github.com/zhangguanzhang/Installer
+
+
+### 装机平台
+https://zhuanlan.zhihu.com/p/345215257

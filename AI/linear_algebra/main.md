@@ -28,3 +28,10 @@ https://xie.infoq.cn/article/647970614db9d4d8144138531
 
 ## 我的一年数据科学学习之旅
 https://www.infoq.cn/article/XkjCw7lHyceZkNfmm99L
+
+
+## 函数和图像
+https://www.sohu.com/a/208422933_361664
+
+## 数学工具
+https://www.desmos.com/?lang=zh-CN

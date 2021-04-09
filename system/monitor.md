@@ -89,3 +89,15 @@ sar
 
 > 监控指标解释
 https://satori-monitoring.readthedocs.io/zh/latest/builtin-metrics/net.html
+
+
+
+### licence设计
+https://www.cnblogs.com/tuyile006/p/10882958.html
+
+一种基于RSA+AES算法实现的软件授权License设计思路（附源码）
+https://juejin.cn/post/6864739866979434503
+
+
+软件license模块设计小结
+http://www.361way.com/soft-license/6248.html
