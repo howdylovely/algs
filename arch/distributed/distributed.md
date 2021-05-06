@@ -20,6 +20,7 @@ go-micro实践
 # 微服务管理框架
 service mesh 理念
 - istio
+- istio 可视化kiali
 - kong
 
 

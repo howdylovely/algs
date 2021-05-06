@@ -11,6 +11,46 @@
 > Golang非常适合用来进行：服务器编程、分布式系统、数据库代理器、网络编程、内存数据库、云平台、微服务、区块链等这些领域或者行业的应用和实施。
 
 
+### 测试驱动开发
+* 重要
+doc
+```text
+https://chenfh5.github.io/2019/09/04/00_go-test.htm
+```
+Lib
+```text
+单元测试
+https://geektutu.com/post/quick-go-test.htm
+https://github.com/stretchr/testify
+
+golang interface 测试
+http://goconvey.co/
+
+静态代码分析
+govet 、gofix 、gofmt、Golint
+https://github.com/360EntSecGroup-Skylar/goreporter 
+
+mock
+https://github.com/golang/mock
+```
+
+### Golang APP性能监控
+```text
+https://github.com/divan/expvarmon
+```
+
+
+### Go 开发者路线图
+```text
+https://github.com/Quorafind/golang-developer-roadmap-cn/blob/master/ReadMe.md
+```
+### 编发编程模型
+
+
+
+### 
+
+
 ### 消息队列
 url https://nsq.io/
 ```text
@@ -184,3 +224,30 @@ https://tech.youzan.com/you-zan-go-xiang-mu-dan-ce-ji-cheng-zeng-liang-fu-gai-lu
 
 ### json 序列化技巧
 https://www.jianshu.com/p/f2e6c8c4bb90
+
+
+#### 数据结构
+https://github.com/emirpasic/gods#arraylist
+
+
+
+#### golang 调试工具
+```text
+dlv.exe     go语言调试工具
+gocode.exe  go语言代码检查，自动补全
+godef.exe   go语言代码定义和引用的跳转
+golint.exe  go语言代码规范检查
+go-outline.exe 用于在Go源文件中提取JSON形式声明的简单工具
+gopkgs.exe  快速列出可用包的工具
+gorename.exe 在Go源代码中执行标识符的精确类型安全重命名
+goreturns.exe 类似fmt和import的工具，使用零值填充Go返回语句以匹配func返回类型
+go-symbols.exe 从go源码树中提取JSON形式的包符号的工具
+gotour.exe  go语言指南网页版
+guru.exe    go语言源代码有关工具，如代码高亮等
+```
+
+#### golang 面试
+```text
+https://www.cnblogs.com/wpgraceii/p/10528183.html
+https://www.cnblogs.com/Survivalist/p/11527949.html
+```

@@ -159,6 +159,24 @@ npm run servelocal --ip=scmtest-console.jdcloud.com --rewrite=/api/v1
 ```
 
 
+windows
+网络失败重复安装
+```txt
+- python2.7
+- cmd
+node-sass
+npm insatll
+```
+
+
+linux 
+```text
+yarn 安装
+wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
+yum -y install yarn
+```
+
+
 
 docker 
 
