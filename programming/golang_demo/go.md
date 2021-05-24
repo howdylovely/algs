@@ -22,6 +22,7 @@ Lib
 单元测试
 https://geektutu.com/post/quick-go-test.htm
 https://github.com/stretchr/testify
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/11.3.md
 
 golang interface 测试
 http://goconvey.co/
@@ -32,16 +33,54 @@ https://github.com/360EntSecGroup-Skylar/goreporter
 
 mock
 https://github.com/golang/mock
+
+怎么写单元测试
+https://golang.org/pkg/testing/
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/11.3.md
+Mock框架
+
+http Mock：https://github.com/jarcoal/httpmock
+sql Mock：https://github.com/DATA-DOG/go-sqlmock
+
 ```
 
 ### Golang APP性能监控
 ```text
 https://github.com/divan/expvarmon
+方法一：time 
+shell 内置的 time 
+GNU 实现的 time 
+*BSD、macOS 的 time 
+go tool 中的 -toolexec 参数 
+方法二：GODEBUG 
+插曲一：Profiler 是如何工作的？ 
+性能分析注意事项 
+方法三：pprof 
+CPU 性能分析 
+内存性能分析 
+阻塞性能分析 
+一次只分析一个东西 
+对函数分析 
+对整个应用分析 
+方法四：/debug/pprof 
+使用 pprof 
+内存性能分析： 
+阻塞性能分析 
+插曲二：Frame Pointer 
+方法五：perf 
+方法六：火焰图 (Flame Graph) 
+方法七：go tool trace 
+总结 
+
+https://www.cnblogs.com/landv/p/11274877.html
 ```
 
 
 ### Go 开发者路线图
 ```text
+go程序设计
+https://golang.design/under-the-hood/zh-cn/part1basic/ch05life/
+
 https://github.com/Quorafind/golang-developer-roadmap-cn/blob/master/ReadMe.md
 ```
 ### 编发编程模型
@@ -167,6 +206,7 @@ https://www.liwenzhou.com/archives/
 ### 面试、底层内容数据
 http://www.topgoer.com/
 
+https://geektutu.com/post/hpg-benchmark.html
 
 ### gin validator 参数校验
 https://juejin.cn/post/6863765115456454664
@@ -250,4 +290,13 @@ guru.exe    go语言源代码有关工具，如代码高亮等
 ```text
 https://www.cnblogs.com/wpgraceii/p/10528183.html
 https://www.cnblogs.com/Survivalist/p/11527949.html
+
 ```
+
+
+#### Golang 中使用 JSON 的小技巧
+https://colobu.com/2017/06/21/json-tricks-in-Go/
+
+
+#### Golang 监控（书）
+https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-sysmon/

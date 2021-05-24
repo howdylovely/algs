@@ -213,3 +213,5 @@ vue run env
 ```text
         // "servelocal": "shell-exec --colored-output \"npm run serve --local\" \"npm run express\"",
 ```
+#### vue elment table 拖动排序
+https://blog.csdn.net/weixin_46527264/article/details/111693851

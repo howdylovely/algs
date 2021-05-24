@@ -162,3 +162,7 @@ docsify：一个神奇的文档站点生成器，简单轻巧，无需静态构�
 
 ipmitool 介绍
 > https://www.cnblogs.com/zhangxinglong/p/5012441.html
+
+
+如何设计一个秒杀系统
+> https://gongfukangee.github.io/2019/06/09/SecondsKill/#0-%E5%9F%BA%E6%9C%AC%E7%A7%92%E6%9D%80%E9%80%BB%E8%BE%91
