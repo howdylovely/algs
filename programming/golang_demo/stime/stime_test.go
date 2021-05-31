@@ -153,6 +153,22 @@ func TestTime(t *testing.T) {
 
 	// 日期时间戳间的转换
 
+	// //获取传入的时间所在月份的第一天，即某月第一天的0点。如传入time.Now(), 返回当前月份的第一天0点时间。
+	// func GetFirstDateOfMonth(d time.Time) time.Time {
+	// 	d = d.AddDate(0, 0, -d.Day() + 1)
+	// 	return GetZeroTime(d)
+	// }
+	// //获取传入的时间所在月份的最后一天，即某月最后一天的0点。如传入time.Now(), 返回当前月份的最后一天0点时间。
+	// func GetLastDateOfMonth(d time.Time) time.Time {
+	// 	return GetFirstDateOfMonth(d).AddDate(0, 1, -1)
+	// }
+
+	// //获取某一天的0点时间
+	// func GetZeroTime(d time.Time) time.Time {
+	// 	return time.Date(d.Year(), d.Month(), d.Day(), 0, 0, 0, 0, d.Location())
+
+	// }
+
 	// ref doc
 	// https: //segmentfault.com/a/1190000019694913?utm_source=sf-similar-article
 }
@@ -189,14 +205,66 @@ func TestStringToStamp(t *testing.T) {
 	// time2, _ := time.ParseInLocation(timeFormat, "2021-05-22 00:00:00", local) //洛杉矶时间
 
 	// fmt.Println(time2.Unix())
-	now := time.Now()
+	// now := time.Now()
 	// m, _ := time.ParseDuration("-1m")
 	// m1 := now.Add(m)
 	// fmt.Println(m1)
 
-	m, _ := time.ParseDuration("24h")
-	result := now.Add(m)
-	fmt.Println(result)
-	fmt.Println(result.Format("2006/01/02 15:04:05"))
+	// m, _ := time.ParseDuration("24h")
+	// result := now.Add(m)
+	// fmt.Println(result)
+	// fmt.Println(result.Format("2006/01/02 15:04:05"))
 
+	// d := time.Now()
+
+	// fmt.Println(GetQuarterDateOfMonth(d))
+	eTime := fmt.Sprintf("%s-0%s-01 23:59:59", "2021", "5")
+	aa, _ := parseWithLocation("Asia/Shanghai", eTime)
+	fmt.Println(aa.Unix())
+	// local, _ := time.LoadLocation("Asia/Shanghai")
+	// tm2, _ := time.Parse("2006-01-02 15:04:05", eTime)
+
+	// fmt.Println(tm2.Unix())
+
+}
+
+const TIME_LAYOUT = "2006-01-02 15:04:05"
+
+func parseWithLocation(name string, timeStr string) (time.Time, error) {
+	locationName := name
+	if l, err := time.LoadLocation(locationName); err != nil {
+		println(err.Error())
+		return time.Time{}, err
+	} else {
+		lt, _ := time.ParseInLocation(TIME_LAYOUT, timeStr, l)
+		fmt.Println(locationName, lt)
+		return lt, nil
+	}
+}
+
+// 获取季度的结束日期
+func GetQuarterDateOfMonth(d time.Time) time.Time {
+	d = d.AddDate(0, 3, -d.Day()+1)
+	return GetLastTime(d)
+}
+
+//获取某一天的23 、59 、59点时间
+func GetLastTime(d time.Time) time.Time {
+	return time.Date(d.Year(), d.Month(), d.Day(), 23, 59, 59, 0, d.Location())
+}
+
+//获取传入的时间所在月份的第一天，即某月第一天的0点。如传入time.Now(), 返回当前月份的第一天0点时间。
+func GetFirstDateOfMonth(d time.Time) time.Time {
+	d = d.AddDate(0, 0, -d.Day()+1)
+	return GetZeroTime(d)
+}
+
+//获取传入的时间所在月份的最后一天，即某月最后一天的0点。如传入time.Now(), 返回当前月份的最后一天0点时间。
+func GetLastDateOfMonth(d time.Time) time.Time {
+	return GetFirstDateOfMonth(d).AddDate(0, 1, -1)
+}
+
+//获取某一天的0点时间
+func GetZeroTime(d time.Time) time.Time {
+	return time.Date(d.Year(), d.Month(), d.Day(), 0, 0, 0, 0, d.Location())
 }

@@ -10,7 +10,7 @@ func TestKpi(t *testing.T) {
 	const TECH float64 = 0.33
 
 	var worktime float64
-	worktime = 10.72
+	worktime = 8
 
 	fmt.Printf("JD: %f \n", worktime*JD)
 	fmt.Printf("TECH: %f \n", worktime*TECH)

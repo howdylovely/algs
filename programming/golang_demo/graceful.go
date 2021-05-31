@@ -1,3 +1,5 @@
+package golang_demo
+
 // // +build go1.8
 
 // package golang_demo

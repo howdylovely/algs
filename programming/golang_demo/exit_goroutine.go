@@ -1,3 +1,5 @@
+package golang_demo
+
 // func doSomethingContext(ctx context.Context) error {
 // 	for i := 0; i < 3000; i++ {
 // 		time.Sleep(time.Second * 1)
